@@ -1,0 +1,14 @@
+<div class="container" ><br>
+    <div class="row"><br>
+    <div class="col" *ngFor="let i of artforms"><br>
+
+<div class="card" style="width: 18rem; height: 425px;">
+    <img src="../../assets/images/{{i.Image}}" class="card-img-top" alt="..." height="250px">
+    <div class="card-body"  >
+      <h5 class="card-title">{{i.name}}</h5>
+      <p class="card-text">{{i.desc}}</p>
+      <button (click)="gotohere(i.id)" style="background-color: rgba(61, 40, 133, 0.961);"> Read more-</button> 
+     
+    </div>
+  </div>
+

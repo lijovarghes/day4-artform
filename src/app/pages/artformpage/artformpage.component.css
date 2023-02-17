@@ -1,0 +1,16 @@
+button:hover {
+    background-color: green;
+  }
+  button {
+    display: inline-block;
+    background-color: #7b38d8;
+    /* padding: 20px; */
+    width: 150px;
+    color: #ffffff;
+    text-align: center;
+    border: 4px double #cccccc;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer; /* add this line */
+    margin: 5px; /* add this line */
+  }
